@@ -1,0 +1,2 @@
+serviceClass: loei.client.GreetingService
+path: DA1AB4B42A3547964EB2BA98757F41C7.gwt.rpc
