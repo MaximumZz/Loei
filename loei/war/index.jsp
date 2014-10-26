@@ -7,6 +7,22 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link href="css/footer.css" rel="stylesheet">
+
+<script>
+	var xmlhttp = new XMLHttpRequest();
+
+	xmlhttp.onreadystatechange=function(){
+		if(xmlhttp.readyState==4 && xmlhttp.status==200){ 
+			document.getElementById("result").innerHTML = xmlhttp.responseText;
+			
+		}
+	}
+
+	var url="loadtext.jsp";
+	xmlhttp.open("GET",url,true);
+	xmlhttp.send();
+</script>
+
 </head>
 <body>
 <div class="container">
@@ -90,7 +106,7 @@
 		</div>
 	</div><br><br>
 	
-	
+	<div class="section"><marquee id="result"></marquee></div>
 	<div class="row clearfix">
 		<div class="col-md-8 column">
 				<div class="tabbable">
