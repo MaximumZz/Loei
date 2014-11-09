@@ -7,7 +7,6 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link href="css/footer.css" rel="stylesheet">
-
 <script>
 	var xmlhttp = new XMLHttpRequest();
 
@@ -22,6 +21,17 @@
 	xmlhttp.open("GET",url,true);
 	xmlhttp.send();
 </script>
+
+<script>
+var first = { 
+		"firstlo" : [
+        {"pro":"ภูกระดึง \n อุทยานแห่งชาติภูกระดึง \n แหล่งท่องเที่ยวทางธรรมชาติที่ได้รับความนิยมมากแห่งหนึ่งของเมืองไทยเพราะมีสภาพธรรมชาติสมบูรณ์ประกอบด้วยระบบนิเวศ \n และภูมิประเทศหลากหลายทั้งทุ่งหญ้า ป่าสนเขา ป่าดิบ น้ำตกและหน้าผาชมทิวทัศน์"},
+        {"pro":"ภูเรือ \n อุทยานแห่งชาติภูเรือ \n เป็นภูเขาสูงใหญ่ บนยอดเขาเป็นที่ราบกว้างใหญ่ มีต้นสนขึ้นสลับซับซ้อน มีลักษณะแปลกคือ มีส่วนหนึ่งเป็นผาชะโงกยื่นออกมาเหมือนหัวเรือสำเภาใหญ่"},
+        {"pro":"ภูป่าเปาะ \n บ้านผาหวาย ในเขตรักษาพันธุ์สัตว์ป่าภูค้อ-ภูกระแต \n ภูป่าเปาะ ฟูจิเมืองไทย เป็นจุดชมวิวที่สูงจากระดับน้ำทะเลประมาณ 900 เมตร  บนภูป่าเปาะนั้นมีจุดชมวิวอยู่ด้วยกัน 4 จุด \n โดยจุดชมวิวแต่ละจุดมีระยะทางห่างกันประมาณ 200 เมตร "}]
+    };
+
+</script>
+
 
 </head>
 <body>
@@ -120,13 +130,13 @@
 						<img alt="300x200" src="http://lorempixel.com/600/200/people" />
 						<div class="caption">
 							<h3>
-								สถานที่แนะนำ
+								ภูกระดึง
 							</h3>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							json
 							</p>
 							<p>
-								<a class="btn" href="#">อ่านต่อ</a>
+								<a class="btn" onclick ="alert(first.firstlo[0].pro);">อ่านต่อ</a>
 							</p>
 						</div>
 					</div>
@@ -136,13 +146,13 @@
 						<img alt="300x200" src="http://lorempixel.com/600/200/city" />
 						<div class="caption">
 							<h3>
-								สถานที่แนะนำ
+								ภูเรือ
 							</h3>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							json
 							</p>
 							<p>
-								<a class="btn" href="#">อ่านต่อ</a>
+								<a class="btn" onclick ="alert(first.firstlo[1].pro);">อ่านต่อ</a>
 							</p>
 						</div>
 					</div>
@@ -152,13 +162,13 @@
 						<img alt="300x200" src="http://lorempixel.com/600/200/sports" />
 						<div class="caption">
 							<h3>
-								สถานที่แนะนำ
+								ภูป่าเปาะ
 							</h3>
 							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.
+							json
 							</p>
 							<p>
-								<a class="btn" href="#">อ่านต่อ</a>
+								<a class="btn" onclick ="alert(first.firstlo[2].pro);">อ่านต่อ</a>
 							</p>
 						</div>
 					</div>
@@ -242,6 +252,12 @@
 				</div>
 			</div>
 		</div>
+		
+		
+		
+
+		
+		
 	</div><br>
 	<div id="footer">
 	    <div class="row">
