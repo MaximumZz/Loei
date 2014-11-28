@@ -1,2 +1,3 @@
 # Module loei
 # RPC service class, partial path of RPC policy file
+loei.client.GreetingService, DA1AB4B42A3547964EB2BA98757F41C7.gwt.rpc
