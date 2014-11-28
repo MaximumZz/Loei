@@ -105,7 +105,7 @@ var first = {
 						String getfirstname_ses = (String)session.getAttribute("firstname_ses");
 						String getlastname_ses = (String)session.getAttribute("lastname_ses");
 						if(getusername_ses==null) { %>
-						<li><a href="sign.html">Sing in</a></li>
+						<li><a href="sign.html">Sign in</a></li>
 						<% } else { %>
 						<li><a href="logout.jsp"><span class="glyphicon glyphicon-user"></span> &nbsp;<%=getfirstname_ses%> (Log out)</a></a>
 						<% } %>
