@@ -21,6 +21,12 @@
 	xmlhttp.open("GET",url,true);
 	xmlhttp.send();
 </script>
+<style type="text/css">
+	div.bor {
+		border: 10px solid #333300;
+		border-radius: 0.5em;
+		background:rgba(250,240,230,0.7);}
+	</style>
 
 <script>
 var first = { 
@@ -35,7 +41,7 @@ var first = {
 
 
 </head>
-<body>
+<body background="./img/bg.jpg" bgproperties="fixed">
 <div class="container">
 	<div class="row clearfix">
 		<div class="col-md-12 column">
@@ -92,10 +98,7 @@ var first = {
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 					<ul class="nav navbar-nav">
 						<li>
-							<a href="#">สถานที่ท่องเที่ยว</a>
-						</li>
-						<li>
-							<a href="#">Link</a>
+							<a href="travel.jsp">สถานที่ท่องเที่ยว</a>
 						</li>
 						<li>
 							<a href="ContactUs.jsp">Contact us</a>
@@ -118,6 +121,9 @@ var first = {
 	</div><br><br>
 	
 	<div class="section"><marquee id="result"></marquee></div>
+	<div class="row">
+	<div class="col-md-12">
+	<div class="bor">
 	<div class="row clearfix">
 		<div class="col-md-8 column">
 				<div class="tabbable">
@@ -185,7 +191,7 @@ var first = {
 								ภูสวนทราย
 							</h3>
 							<p>						
-								ภูมิประเทศประกอบด้วยขุนเขาสลับซับซ้อนทอดตัวเป็นแนวยาวจากเหนือจรดใต้
+								ภูมิประเทศประกอบด้วยขุนเขาสลับซับซ้อนทอดตัวเป็นแนวยาว
 							</p>
 							<p>
 								<a class="btn" onclick ="alert(first.firstlo[3].pro);">อ่านต่อ</a>
@@ -207,7 +213,9 @@ var first = {
 				</div> 
 			</div>
 		</div>
-			
+		</div> 
+			</div>
+		</div>	
 	</div><br>
 	<div id="footer">
 	    <div class="row">
@@ -217,7 +225,8 @@ var first = {
 	    </div>
 	</div>
 </div>
-	<div id="fb-root"></div> <script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
+	<div id="fb-root"></div> 
+	<script>(function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.0"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));</script>
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 
